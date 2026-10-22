@@ -52,6 +52,9 @@
 
 .cover {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     min-height: 757px; 
     background-image: url('../images/cover.jpg');
     background-size: cover;
@@ -62,6 +65,32 @@
 .cover__description {
     position: relative;
     z-index: 1;
+}
+
+.cover__title {
+    font-size: 100px; 
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: uppercase;
+    letter-spacing: 0.3em; 
+    padding: 165px 50px;
+    color: #FFFFFF;
+}
+
+.cover__title > span {
+    display: block;
+}
+
+.cover__title > span:nth-child(2) {
+    text-align: center;
+}
+
+.cover__title > span:nth-child(3) {
+    text-align: right;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0;
 }
 
 .overlay {
