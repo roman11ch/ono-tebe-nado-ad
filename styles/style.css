@@ -262,9 +262,11 @@
   letter-spacing: 0;
 }
 
+
 .about__text p:first-child {
   /* замена paragraph spacing */
-  margin-bottom: 30px;
+  margin-bottom: 24px;
+  padding-right: 5px;
 }
 
 .footer {
