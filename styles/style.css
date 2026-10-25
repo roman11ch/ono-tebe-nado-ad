@@ -154,7 +154,7 @@
 }
 
 .lots__card-list-item {
-    width: 334px;       /* проверьте в Figma */
+    width: 334px;
     min-height: 596px;
 }
 
@@ -263,5 +263,46 @@
 }
 
 .footer {
-    padding-top: 180px;
+    margin-top: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer__address{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer__menu-list {
+    list-style: none;
+    text-align: center;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__menu-list-item {
+    line-height: 100%;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
+    padding-bottom: 1px;
+}
+
+.footer__menu-link_active {
+    text-decoration: none;
+}
+
+.footer__socials-list {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+}
+
+.footer__socials-link img{
+    width: 48px;
+    height: 48px;
 }
